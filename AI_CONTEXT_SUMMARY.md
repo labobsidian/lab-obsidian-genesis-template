@@ -1,11 +1,11 @@
 # AI Context Summary - YourProjectName
 
-> **Quick context loader for AI development assistants**  
-> Load this file first for immediate project understanding
+**Quick context loader for AI development assistants**  
+Load this file first for immediate project understanding
 
-## 🎯 Project Overview
+## Project Overview
 
-**YourProjectName** = Apple ecosystem application built with the Obsidian Genesis Template, featuring modern Swift development with AI-driven workflows.
+**YourProjectName** = Apple ecosystem application built with the Lab Obsidian Genesis Template, featuring modern Swift development with AI-driven workflows.
 
 - **Platforms**: iOS, iPadOS, macOS, watchOS, tvOS, visionOS
 - **Language**: Swift 6 with strict concurrency
@@ -13,19 +13,19 @@
 - **Development Method**: BMAD v4.29.0 with 12 specialized AI agents
 - **Project Management**: Linear workspace with bidirectional AI sync (optional)
 
-## ⚡ Quick Facts
+## Quick Facts
 
-- **Template**: Obsidian Genesis Template - Universal Apple app development
+- **Template**: Lab Obsidian Genesis Template - Universal Apple app development
 - **Swift Packages**: YourProjectCore, YourProjectUI, YourProjectFeatures
 - **AI Agents**: 12 BMAD agents for comprehensive development workflows
 - **Build System**: XcodeGen + Swift Package Manager
 - **Documentation**: AI-ready guides for humans and assistants
 
-## 📁 Key Directories
+## Key Directories
 
 ```
 yourprojectname/
-├── CLAUDE.md                    # 🔥 PRIMARY PROJECT INSTRUCTIONS
+├── CLAUDE.md                    # PRIMARY PROJECT INSTRUCTIONS
 ├── AI_DEVELOPER_ONBOARDING.md  # Universal AI assistant guide
 ├── Apps/                       # Platform-specific SwiftUI apps
 │   ├── YourProjectName-iOS/    # iPhone & iPad app
@@ -41,7 +41,7 @@ yourprojectname/
 └── Documentation/             # Technical specs & guides
 ```
 
-## 🏗️ Apple Ecosystem Architecture
+## Apple Ecosystem Architecture
 
 **Platform Applications**:
 - **iOS/iPadOS**: Touch-optimized with Live Activities and Dynamic Island
@@ -55,7 +55,7 @@ yourprojectname/
 2. **YourProjectUI** - Design system, shared components, platform adaptations
 3. **YourProjectFeatures** - Feature-specific modules and workflows
 
-## 🤖 BMAD Agent System
+## BMAD Agent System
 
 **12 Specialized Agents** (`.bmad-core/agents/`):
 - **bmad-orchestrator** - Project coordination and workflow management
@@ -71,7 +71,7 @@ yourprojectname/
 - **bmad-the-creator** - Framework extension and tooling
 - **bmad-master** - Meta-orchestration and quality control
 
-## 🚀 Essential Commands
+## Essential Commands
 
 ```bash
 # Project initialization (if using template)
@@ -90,28 +90,28 @@ yourprojectname/
 open YourProjectName.xcworkspace
 ```
 
-## 📊 Linear Workspace (Optional)
+## Linear Workspace (Optional)
 
 - **Team ID**: Configured in `.env` file
 - **Project Organization**: Automated BMAD project structure
 - **Agent Assignment**: Issues automatically assigned to specialized agents
 - **Sync System**: `.bmad-core/integration/bmad-linear-sync.js`
 
-## 🎯 Current Development Status
+## Current Development Status
 
-**Setup Phase**: Project initialized from Obsidian Genesis Template
+**Setup Phase**: Project initialized from Lab Obsidian Genesis Template
 **Core Architecture**: Swift 6 + SwiftUI + SwiftData foundation ready
 **AI Integration**: 12 BMAD agents configured for specialized workflows
 **Platform Support**: Complete Apple ecosystem implementation ready
 
-## 🔧 Development Standards
+## Development Standards
 
 - **Swift 6**: `@MainActor`, `Sendable`, strict concurrency
 - **Memory**: Always `[weak self]` in Task closures
 - **Performance**: 60fps UI, efficient memory usage, battery optimization
 - **Testing**: Comprehensive coverage for all packages
 
-## 🏗️ Architecture Layers
+## Architecture Layers
 
 1. **Apps Layer**: Platform-specific SwiftUI applications
 2. **Packages Layer**: Shared business logic and UI components
@@ -120,7 +120,7 @@ open YourProjectName.xcworkspace
 5. **Features Layer**: Feature-specific modules and workflows
 6. **Apple Integration**: Native APIs, App Intents, system integration
 
-## 🎨 Key Technologies
+## Key Technologies
 
 - **SwiftUI**: Declarative UI across all platforms
 - **SwiftData**: Modern data persistence with CloudKit sync
@@ -129,7 +129,7 @@ open YourProjectName.xcworkspace
 - **Live Activities**: Dynamic Island and Lock Screen integration
 - **Focus Filters**: System-wide focus mode integration
 
-## 📱 Platform Features
+## Platform Features
 
 - **iOS/iPadOS**: Complete productivity suite with native iOS features
 - **macOS**: Desktop-class experience with native macOS integration
@@ -137,7 +137,7 @@ open YourProjectName.xcworkspace
 - **watchOS**: Ambient intelligence and health integration
 - **tvOS**: Dashboard visualization and focus displays
 
-## 🔄 Development Workflow
+## Development Workflow
 
 1. **Context Loading**: Read `CLAUDE.md` first (contains specific instructions)
 2. **Agent Selection**: Choose appropriate BMAD agent from `.bmad-core/agents/`
@@ -145,14 +145,14 @@ open YourProjectName.xcworkspace
 4. **Development**: Follow Swift 6 + SwiftUI + Apple platform patterns
 5. **Testing**: Validate across all supported Apple platforms
 
-## 🚨 Critical Files to Read
+## Critical Files to Read
 
 1. **CLAUDE.md** - Complete project instructions (MUST READ)
 2. **AI_DEVELOPER_ONBOARDING.md** - Universal AI setup guide
 3. **.env** - Development environment configuration
 4. **Scripts/setup-developer.sh** - Development environment setup
 
-## 💡 Quick Wins for AI Assistants
+## Quick Wins for AI Assistants
 
 - Use `.bmad-core/agents/` for specialized development workflows
 - Reference Linear issues for current priorities (if configured)
@@ -160,7 +160,7 @@ open YourProjectName.xcworkspace
 - Leverage SwiftUI declarative patterns for UI development
 - Apply Apple platform-specific optimizations
 
-## 🔧 Template Features
+## Template Features
 
 - **Zero Configuration**: Works out-of-the-box for any Apple app
 - **AI-First Design**: Optimized for AI assistant development
@@ -168,8 +168,17 @@ open YourProjectName.xcworkspace
 - **Enterprise-Grade**: Professional development workflows and tooling
 - **Extensible**: Easy to customize for specific project needs
 
+## About Lab Obsidian
+
+Lab Obsidian is a creative platform spanning music, technology, and cultural experiences. We build tools and systems that embody brutalist design principles—every decision is deliberate, nothing accidental.
+
+**Contact**: zack@labobsidian.com  
+**Website**: https://www.labobsidian.com
+
 ---
 
-**🎯 You're now ready for AI-assisted Apple ecosystem development!**
+**You're now ready for AI-assisted Apple ecosystem development!**
 
 *Next: Load `CLAUDE.md` for complete project instructions and development guidelines.*
+
+*Built with [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template) - The ultimate Apple app development template.*

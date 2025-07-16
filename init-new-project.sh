@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 🚀 Obsidian Genesis Template - Project Initialization Script
+# Lab Obsidian Genesis Template - Project Initialization Script
 # Creates a new Apple ecosystem project with AI-driven development workflows
 
 set -e  # Exit on any error
@@ -17,7 +17,7 @@ NC='\033[0m' # No Color
 # Print styled output
 print_header() {
     echo -e "\n${PURPLE}========================================${NC}"
-    echo -e "${PURPLE}🚀 OBSIDIAN GENESIS PROJECT INIT${NC}"
+    echo -e "${PURPLE}LAB OBSIDIAN GENESIS PROJECT INIT${NC}"
     echo -e "${PURPLE}========================================${NC}\n"
 }
 
@@ -43,7 +43,7 @@ print_input() {
 
 # Check if we're in a template directory
 if [ ! -f "init-new-project.sh" ]; then
-    print_error "This script must be run from the obsidian-genesis-template directory"
+    print_error "This script must be run from the lab-obsidian-genesis-template directory"
     exit 1
 fi
 
@@ -392,7 +392,7 @@ fi
 git init
 git add .
 git commit -m "$(cat <<EOF
-Initial commit: ${PROJECT_NAME} project created from obsidian-genesis-template
+Initial commit: ${PROJECT_NAME} project created from Lab Obsidian Genesis Template
 
 Project Configuration:
 - Name: ${PROJECT_NAME}
@@ -409,9 +409,9 @@ Features:
 - Comprehensive automation and CI/CD workflows
 - Enterprise-grade development environment
 
-Generated with obsidian-genesis-template - the ultimate Apple app development template.
+Generated with Lab Obsidian Genesis Template - the ultimate Apple app development template.
 
-🚀 Generated with [Obsidian Genesis Template](https://github.com/zackbissell/obsidian-genesis-template)
+Generated with [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
 EOF
 )"
 
@@ -422,7 +422,7 @@ print_status "Finalizing project setup..."
 
 # Create setup completion summary
 cat > PROJECT_SETUP_COMPLETE.md << EOL
-# 🎉 ${PROJECT_NAME} Setup Complete!
+# ${PROJECT_NAME} Setup Complete!
 
 Your new Apple ecosystem project has been successfully initialized with enterprise-grade workflows and AI-driven development capabilities.
 
@@ -446,7 +446,7 @@ Your new Apple ecosystem project has been successfully initialized with enterpri
 - **Build Scripts**: Automated development, testing, and deployment
 - **CI/CD**: GitHub Actions workflows configured
 
-## 🚀 Next Steps
+## Next Steps
 
 ### 1. Complete Development Setup
 \`\`\`bash
@@ -535,13 +535,13 @@ Use this template to create:
 - **Linear Integration**: Ensure API key is configured in environment
 
 ### Support Resources
-- **Template Issues**: https://github.com/zackbissell/obsidian-genesis-template/issues
+- **Template Issues**: https://github.com/labobsidian/lab-obsidian-genesis-template/issues
 - **Project Documentation**: Check \`Documentation/\` directory
 - **AI Agent Help**: Use \`*help\` command with any BMAD agent
 
 ---
 
-**🚀 Welcome to the future of Apple app development!**
+**Welcome to the future of Apple app development!**
 
 *Your ${PROJECT_NAME} project is now ready for enterprise-grade development with AI-driven workflows and comprehensive automation.*
 EOL
@@ -550,14 +550,14 @@ print_success "Created PROJECT_SETUP_COMPLETE.md"
 
 # Final success message
 print_header
-print_success "🎉 PROJECT INITIALIZATION COMPLETE! 🎉"
+print_success "PROJECT INITIALIZATION COMPLETE!"
 echo ""
 print_status "Project Summary:"
-echo "  📱 Name: ${PROJECT_NAME}"
-echo "  🏷️  Bundle ID: ${BUNDLE_ID_PREFIX}.${PROJECT_NAME_SAFE,,}"
-echo "  🍎 Apple Team: ${APPLE_TEAM_ID}"
-echo "  📊 Linear Team: ${LINEAR_TEAM_ID:-'Not configured'}"
-echo "  🐙 GitHub: ${GITHUB_USERNAME}/${PROJECT_NAME_SAFE,,}"
+echo "  Name: ${PROJECT_NAME}"
+echo "  Bundle ID: ${BUNDLE_ID_PREFIX}.${PROJECT_NAME_SAFE,,}"
+echo "  Apple Team: ${APPLE_TEAM_ID}"
+echo "  Linear Team: ${LINEAR_TEAM_ID:-'Not configured'}"
+echo "  GitHub: ${GITHUB_USERNAME}/${PROJECT_NAME_SAFE,,}"
 echo ""
 print_status "Next Steps:"
 echo "  1. Read PROJECT_SETUP_COMPLETE.md for detailed instructions"

@@ -5,7 +5,7 @@
 
 set -e  # Exit on any error
 
-echo "🚀 Setting up YourProjectName for development..."
+echo "Setting up YourProjectName for development..."
 
 # Colors for output
 RED='\033[0;31m'
@@ -245,7 +245,7 @@ echo ""
 
 # Platform-specific notes
 print_status "Platform deployment notes:"
-echo "  📱 iOS/iPadOS: Connect device via USB, trust developer cert"
+echo "  iOS/iPadOS: Connect device via USB, trust developer cert"
 echo "  🖥️  macOS: Enable Developer Mode in System Settings"
 echo "  🥽 visionOS: Requires Vision Pro with visionOS 1.0+"
 echo "  ⌚ watchOS: Requires paired iPhone with YourProjectName installed"

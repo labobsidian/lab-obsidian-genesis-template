@@ -1,7 +1,8 @@
-name: "Obsidian Genesis Project"
-description: "Ultimate AI-agnostic Apple development template with BMAD workflows"
-homepageUrl: "https://github.com/zackbissell/obsidian-genesis-template"
+name: "Lab Obsidian Genesis Project"
+description: "Ultimate AI-agnostic Apple development template with BMAD workflows, designed by Lab Obsidian to set the standard for creative, technical, and narrative-driven projects. Brutalist clarity, no filler."
+homepageUrl: "https://www.labobsidian.com"
 topics:
+  - lab-obsidian
   - apple
   - ios
   - ipados
@@ -27,3 +28,4 @@ topics:
   - xcode
   - mobile-development
   - cross-platform
+  - brutalist-design

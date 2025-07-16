@@ -1,9 +1,9 @@
 # AI Developer Onboarding Guide
 
-> **Universal AI-Assisted Development for YourProjectName**  
-> Compatible with Claude Code, Gemini CLI, ChatGPT Codex, and other AI development tools
+**Universal AI-Assisted Development for YourProjectName**  
+Compatible with Claude Code, Gemini CLI, ChatGPT Codex, and other AI development tools
 
-## 🚀 Quick Start for AI Assistants
+## Quick Start for AI Assistants
 
 ### Repository Overview
 ```
@@ -25,7 +25,7 @@ YourProjectName - Apple Ecosystem Application Template
 - **AI Development**: BMAD Method with 12 specialized agents
 - **Project Management**: Linear workspace with bidirectional sync (optional)
 
-## 🤖 AI Assistant Setup Instructions
+## AI Assistant Setup Instructions
 
 ### For Claude Code Users
 
@@ -99,7 +99,7 @@ tree -L 3 -I 'node_modules|.build|DerivedData'
 4. **BMAD Method**: 12 specialized agents for AI-driven development
 5. **Universal Design**: Single codebase for all Apple platforms
 
-## 📁 Critical File Locations
+## Critical File Locations
 
 ### Core Configuration
 - `CLAUDE.md` - **Primary project instructions (READ FIRST)**
@@ -131,7 +131,7 @@ Scripts/deploy-testflight.sh         # TestFlight deployment
 .bmad-core/tasks/                    # Workflow automation tasks
 ```
 
-## 🛠️ Development Workflow for AI Assistants
+## Development Workflow for AI Assistants
 
 ### 1. Initial Setup
 ```bash
@@ -177,7 +177,7 @@ For AI assistants that support role-playing or agent systems:
 .bmad-core/agents/pm.md           # Product management expert
 ```
 
-## 🏗️ Apple Ecosystem Architecture
+## Apple Ecosystem Architecture
 
 ### Platform Applications
 - **iOS/iPadOS**: Touch-optimized interface with Live Activities
@@ -205,7 +205,7 @@ Live Activities  // Dynamic Island and Lock Screen
 WidgetKit        // Home Screen and Control Center widgets
 ```
 
-## 📊 Linear Workspace Integration (Optional)
+## Linear Workspace Integration (Optional)
 
 ### For AI Project Management
 - **Team ID**: Configured in `.env` file
@@ -223,7 +223,7 @@ echo "LINEAR_API_KEY=your-api-key" >> .env
 node .bmad-core/integration/bmad-linear-sync.js --setup
 ```
 
-## 🎯 AI Development Best Practices
+## AI Development Best Practices
 
 ### Context Window Optimization
 1. **Start with** `AI_CONTEXT_SUMMARY.md` for quick context
@@ -243,7 +243,7 @@ node .bmad-core/integration/bmad-linear-sync.js --setup
 - **ChatGPT Codex**: Focus on single-package analysis before multi-package operations
 - **All AIs**: Reference BMAD agents for specialized development guidance
 
-## 🔧 Troubleshooting for AI Assistants
+## Troubleshooting for AI Assistants
 
 ### Common Issues
 1. **Workspace Not Found**: Run `./Scripts/generate-workspace.sh` to create Xcode workspace
@@ -264,7 +264,7 @@ rm -rf .build
 swift package update
 ```
 
-## 📚 Essential Reading Order for AI Assistants
+## Essential Reading Order for AI Assistants
 
 1. **AI_CONTEXT_SUMMARY.md** - Start here for quick context
 2. **CLAUDE.md** - Comprehensive project instructions
@@ -272,7 +272,7 @@ swift package update
 4. **.bmad-core/README.md** - BMAD Method overview
 5. **Documentation/Architecture.md** - Technical deep dive
 
-## 🎉 Success Metrics
+## Success Metrics
 
 Your AI-assisted development session is successful when you can:
 - ✅ Navigate the repository structure efficiently
@@ -282,8 +282,17 @@ Your AI-assisted development session is successful when you can:
 - ✅ Build and test the application successfully
 - ✅ Follow Swift 6 concurrency and Apple platform guidelines
 
+## About Lab Obsidian
+
+Lab Obsidian is a creative platform spanning music, technology, and cultural experiences. We build tools and systems that embody brutalist design principles—every decision is deliberate, nothing accidental.
+
+**Contact**: zack@labobsidian.com  
+**Website**: https://www.labobsidian.com
+
 ---
 
-**🤖 Welcome to AI-assisted Apple ecosystem development!**
+**Welcome to AI-assisted Apple ecosystem development!**
 
 *This guide ensures any AI development assistant can quickly understand and effectively contribute to your Apple platform application.*
+
+*Built with [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template) - The ultimate Apple app development template.*

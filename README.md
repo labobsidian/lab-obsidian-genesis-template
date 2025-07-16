@@ -1,25 +1,27 @@
-# 🚀 Obsidian Genesis Template
+# Lab Obsidian Genesis Template
 
-> **Zero-to-production Apple app template with AI-driven development workflows**
+World-class, Apple-native project scaffolding—driven by brutalist clarity and radical honesty.
 
-The ultimate AI-agnostic, app-agnostic template for creating enterprise-grade Apple ecosystem applications with best-in-class development workflows, automated project management, and comprehensive AI assistant integration.
+Every workflow, doc, and integration is designed to cut through noise and empower the next generation of creators, developers, and innovators.
 
-## ✨ Features
+**For more, visit: https://www.labobsidian.com**
 
-- **🍎 Complete Apple Ecosystem**: iOS, iPadOS, macOS, watchOS, tvOS, visionOS support
-- **🤖 AI-First Development**: Claude Code, Gemini CLI, ChatGPT Codex compatibility
-- **🎯 BMAD Method Integration**: 12 specialized AI agents with Linear sync
-- **⚡ Zero Configuration**: Works out-of-the-box with minimal setup
-- **📊 Automated Project Management**: Linear workspace integration with agent assignment
-- **🔧 Enterprise-Grade Tooling**: CI/CD, monitoring, deployment automation
-- **📚 Comprehensive Documentation**: AI-ready guides for humans and assistants
+## Features
 
-## 🏗️ Quick Start
+- **Complete Apple Ecosystem**: iOS, iPadOS, macOS, watchOS, tvOS, visionOS support
+- **AI-First Development**: Claude Code, Gemini CLI, ChatGPT Codex compatibility
+- **BMAD Method Integration**: 12 specialized AI agents with Linear sync
+- **Zero Configuration**: Works out-of-the-box with minimal setup
+- **Automated Project Management**: Linear workspace integration with agent assignment
+- **Enterprise-Grade Tooling**: CI/CD, monitoring, deployment automation
+- **Comprehensive Documentation**: AI-ready guides for humans and assistants
+
+## Quick Start
 
 ### 1. Initialize New Project
 ```bash
 # Clone the template
-git clone https://github.com/zackbissell/obsidian-genesis-template.git MyAwesomeApp
+git clone https://github.com/labobsidian/lab-obsidian-genesis-template.git MyAwesomeApp
 cd MyAwesomeApp
 
 # Run the initialization script
@@ -29,7 +31,7 @@ cd MyAwesomeApp
 ### 2. Follow the Interactive Setup
 The script will ask for:
 - **Project Name**: Your app's name (e.g., "MyAwesome App")
-- **Bundle ID Prefix**: Your reverse domain (e.g., "com.yourcompany")
+- **Bundle ID Prefix**: Your reverse domain (e.g., "com.labobsidian")
 - **Linear Team ID**: Your Linear workspace team ID
 - **Apple Developer Team**: Your Apple Developer Team ID
 
@@ -45,7 +47,7 @@ The script will ask for:
 open YourProjectName.xcworkspace
 ```
 
-## 🤖 AI-Assisted Development
+## AI-Assisted Development
 
 ### For AI Assistants
 1. **Load Context**: Read `AI_CONTEXT_SUMMARY.md` for quick project understanding
@@ -61,11 +63,11 @@ cat CLAUDE.md                    # Detailed instructions
 ls -la .bmad-core/agents/        # Available AI agents
 ```
 
-## 📁 Template Structure
+## Template Structure
 
 ```
-obsidian-genesis-template/
-├── init-new-project.sh          # 🚀 Project initialization script
+lab-obsidian-genesis-template/
+├── init-new-project.sh          # Project initialization script
 ├── Apps/                        # Platform-specific applications
 │   ├── YourProjectName-iOS/     # iPhone & iPad app
 │   ├── YourProjectName-macOS/   # macOS app
@@ -91,7 +93,7 @@ obsidian-genesis-template/
 └── CLAUDE.md                   # Project instructions
 ```
 
-## 🧠 BMAD Method Integration
+## BMAD Method Integration
 
 ### 12 Specialized AI Agents
 - **bmad-orchestrator**: Project coordination and workflow management
@@ -116,7 +118,7 @@ ls .bmad-core/agent-teams/
 cat .bmad-core/agent-teams/team-enhanced.yaml
 ```
 
-## 📊 Linear Workspace Integration
+## Linear Workspace Integration
 
 ### Automated Project Management
 - **Bidirectional Sync**: BMAD stories ↔ Linear issues
@@ -134,7 +136,7 @@ export LINEAR_API_KEY="your-api-key"
 node .bmad-core/integration/setup-linear-workspace.js
 ```
 
-## 🛠️ Development Workflow
+## Development Workflow
 
 ### 1. Project Setup
 ```bash
@@ -173,7 +175,7 @@ cat .bmad-core/agents/qa.md
 ./Scripts/run-full-test-suite.sh
 ```
 
-## 🎯 Platform Support
+## Platform Support
 
 ### iOS/iPadOS
 - **SwiftUI** declarative interface
@@ -205,14 +207,14 @@ cat .bmad-core/agents/qa.md
 - **Big screen** optimization
 - **Multi-user** support
 
-## 🔧 Customization
+## Customization
 
 ### Project Configuration
 Edit `project-config.yaml`:
 ```yaml
 project:
   name: "YourProjectName"
-  bundleIdPrefix: "com.yourcompany"
+  bundleIdPrefix: "com.labobsidian"
   platforms: ["iOS", "macOS", "visionOS"]
   
 bmad:
@@ -233,7 +235,7 @@ edit .bmad-core/agents/dev.md
 cp .bmad-core/agent-teams/team-enhanced.yaml .bmad-core/agent-teams/team-custom.yaml
 ```
 
-## 📚 Documentation
+## Documentation
 
 ### Essential Reading
 1. **`AI_DEVELOPER_ONBOARDING.md`** - AI assistant setup guide
@@ -247,7 +249,7 @@ cp .bmad-core/agent-teams/team-enhanced.yaml .bmad-core/agent-teams/team-custom.
 - **`Documentation/Testing.md`** - Testing methodologies
 - **`Documentation/AI-Integration.md`** - AI development patterns
 
-## 🚀 Deployment
+## Deployment
 
 ### Development
 ```bash
@@ -274,7 +276,7 @@ GitHub Actions automatically:
 - **Deploy** to TestFlight
 - **Sync** with Linear workspace
 
-## 🤝 Contributing
+## Contributing
 
 ### For Template Contributors
 1. Fork the repository
@@ -288,19 +290,19 @@ GitHub Actions automatically:
 3. Contribute to documentation
 4. Help improve AI integration
 
-## 📄 License
+## License
 
 MIT License - see `LICENSE` file for details.
 
-## 🙏 Acknowledgments
+## About Lab Obsidian
 
-- **BMAD Method** for AI-driven development workflows
-- **Linear** for project management integration
-- **Apple** for the incredible development ecosystem
-- **AI Community** for advancing development productivity
+Lab Obsidian is a creative platform spanning music, technology, and cultural experiences. We build tools and systems that embody brutalist design principles—every decision is deliberate, nothing accidental. Our approach cuts through noise with clarity, emotional resonance, and cultural force.
+
+**Contact**: zack@labobsidian.com  
+**Website**: https://www.labobsidian.com
 
 ---
 
-**🎉 Welcome to the future of Apple app development!**
+**Welcome to the future of Apple app development.**
 
 *This template represents the cutting edge of AI-assisted development with enterprise-grade workflows and comprehensive automation.*

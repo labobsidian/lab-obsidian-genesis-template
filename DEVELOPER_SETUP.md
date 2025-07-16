@@ -1,11 +1,11 @@
 # YourProjectName Developer Setup Guide
 
-> **Complete setup for human developers and AI-assisted development**  
-> Supports traditional development and AI coding assistants (Claude Code, Gemini CLI, ChatGPT Codex)
+**Complete setup for human developers and AI-assisted development**  
+Supports traditional development and AI coding assistants (Claude Code, Gemini CLI, ChatGPT Codex)
 
 This guide will help you set up YourProjectName for development and testing on your personal devices.
 
-## 🤖 AI-Assisted Development Setup
+## AI-Assisted Development Setup
 
 ### For AI Development Assistants
 If you're an AI assistant (Claude Code, Gemini CLI, ChatGPT Codex), start here:
@@ -23,7 +23,7 @@ cat CLAUDE.md                    # Detailed instructions
 ls -la .bmad-core/agents/        # Available AI agents
 ```
 
-**📘 Full AI Guide**: See `AI_DEVELOPER_ONBOARDING.md` for comprehensive AI assistant instructions.
+**Full AI Guide**: See `AI_DEVELOPER_ONBOARDING.md` for comprehensive AI assistant instructions.
 
 ---
 
@@ -38,7 +38,7 @@ ls -la .bmad-core/agents/        # Available AI agents
 
 1. **Clone and Configure**:
 ```bash
-git clone https://github.com/your-username/yourprojectname.git
+git clone https://github.com/labobsidian/yourprojectname.git
 cd yourprojectname
 ./Scripts/setup-developer.sh
 ```
@@ -46,7 +46,7 @@ cd yourprojectname
 2. **Set Your Developer Credentials**:
 ```bash
 export DEVELOPMENT_TEAM="YOUR_TEAM_ID"
-export BUNDLE_ID_PREFIX="com.yourcompany"
+export BUNDLE_ID_PREFIX="com.labobsidian"
 ```
 
 3. **Generate and Open Workspace**:
@@ -65,13 +65,13 @@ Create a `.env` file in the project root:
 DEVELOPMENT_TEAM=ABC123DEF4
 
 # Your bundle ID prefix (use your domain in reverse)
-BUNDLE_ID_PREFIX=com.yourcompany
+BUNDLE_ID_PREFIX=com.labobsidian
 
 # Your project name
 PROJECT_NAME=YourProjectName
 
 # Optional: CloudKit container
-CLOUDKIT_CONTAINER=iCloud.com.yourcompany.yourprojectname
+CLOUDKIT_CONTAINER=iCloud.com.labobsidian.yourprojectname
 
 # Optional: Linear integration
 LINEAR_TEAM_ID=your-team-id
@@ -100,7 +100,7 @@ cd Projects/YourProjectName-iOS && xcodegen generate
 3. In **Signing & Capabilities**:
    - Set **Team** to your Apple Developer Team
    - Ensure **Automatically manage signing** is checked
-   - Bundle Identifier should auto-populate as `com.yourcompany.yourprojectname`
+   - Bundle Identifier should auto-populate as `com.labobsidian.yourprojectname`
 
 ### 4. Device-Specific Setup
 
@@ -125,7 +125,7 @@ cd Projects/YourProjectName-iOS && xcodegen generate
 - Requires Apple TV 4K or Apple TV HD
 - Enable Developer Mode via Settings
 
-## 🧠 BMAD Method Integration
+## BMAD Method Integration
 
 ### AI Development Agents
 YourProjectName uses the **BMAD Method v4.29.0** with 12 specialized AI agents for enhanced development:
@@ -146,7 +146,7 @@ cat .bmad-core/agents/dev.md
 cat .bmad-core/agent-teams/team-enhanced.yaml
 ```
 
-## 📊 Linear Workspace Integration (Optional)
+## Linear Workspace Integration (Optional)
 
 ### Project Management Setup
 - **Linear Team**: Configure in `.env` file
@@ -165,7 +165,7 @@ npm install
 node bmad-linear-sync.js --setup
 ```
 
-## 🎯 Architecture Overview
+## Architecture Overview
 
 ### Core Packages
 1. **YourProjectCore** - Business logic, data models, services
@@ -178,7 +178,7 @@ node bmad-linear-sync.js --setup
 - **Live Activities** for Dynamic Island and Lock Screen
 - **WidgetKit** for Home Screen widgets
 
-## 📚 Essential Documentation
+## Essential Documentation
 
 ### Required Reading
 1. **`CLAUDE.md`** - Primary project instructions (MUST READ)
@@ -189,7 +189,7 @@ node bmad-linear-sync.js --setup
 ### Additional Resources
 - **Documentation/Architecture.md** - Technical deep dive
 - **Scripts/** - Development automation tools
-- **Template Source**: [Obsidian Genesis Template](https://github.com/zackbissell/obsidian-genesis-template)
+- **Template Source**: [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
 
 ## Build Settings Overview
 
@@ -243,13 +243,24 @@ swift test --package-path Packages/YourProjectUI
 ./Scripts/deploy-to-device.sh
 ```
 
+## About Lab Obsidian
+
+Lab Obsidian is a creative platform spanning music, technology, and cultural experiences. We build tools and systems that embody brutalist design principles—every decision is deliberate, nothing accidental.
+
+**Contact**: zack@labobsidian.com  
+**Website**: https://www.labobsidian.com
+
 ## Support
 
 For development issues:
 - **AI Assistants**: Start with `AI_DEVELOPER_ONBOARDING.md`
 - **Project Context**: Check `CLAUDE.md` for architecture details
 - **BMAD Workflow**: Use appropriate agent from `.bmad-core/agents/`
-- **Template Issues**: Check [Obsidian Genesis Template](https://github.com/zackbissell/obsidian-genesis-template)
+- **Template Issues**: Check [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
 - **Build Problems**: Review build logs in Xcode and verify environment variables
 
 The workspace is designed to "just work" with minimal configuration for both human developers and AI assistants. Most issues stem from code signing or missing environment variables.
+
+---
+
+*Built with [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template) - The ultimate Apple app development template.*

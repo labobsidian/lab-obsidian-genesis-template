@@ -1,17 +1,17 @@
 # CLAUDE.md
 
-> **⚠️ IMPORTANT**: This is a template project created with Obsidian Genesis Template. Update this file with your specific project details after running `init-new-project.sh`.
+**IMPORTANT**: This is a template project created with Lab Obsidian Genesis Template. Update this file with your specific project details after running `init-new-project.sh`.
 
 ## Project Overview
 
 YourProjectName is a modern Apple ecosystem application built with Swift 6, SwiftUI, and enterprise-grade development workflows. This project leverages the BMAD Method for AI-driven development and comprehensive automation.
 
-**Bundle ID**: com.yourcompany.yourprojectname  
+**Bundle ID**: com.labobsidian.yourprojectname  
 **Platforms**: iOS, iPadOS, macOS, watchOS, tvOS, visionOS  
 **Development Team**: YOUR_TEAM_ID  
-**Template**: [Obsidian Genesis Template](https://github.com/zackbissell/obsidian-genesis-template)
+**Template**: [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
 
-## Linear Development Operations (Optional)
+## Linear Development Operations
 
 **Team ID**: your-linear-team-id  
 **Project Management**: Complete BMAD-Linear integration for AI-driven project management
@@ -137,22 +137,22 @@ YourProjectErrorView         // Error display component
 ```bash
 # Project Information
 PROJECT_NAME="YourProjectName"
-BUNDLE_ID_PREFIX="com.yourcompany"
+BUNDLE_ID_PREFIX="com.labobsidian"
 
 # Apple Developer Configuration
 DEVELOPMENT_TEAM="YOUR_TEAM_ID"
-BUNDLE_IDENTIFIER="com.yourcompany.yourprojectname"
+BUNDLE_IDENTIFIER="com.labobsidian.yourprojectname"
 
 # CloudKit Configuration (optional)
-CLOUDKIT_CONTAINER="iCloud.com.yourcompany.yourprojectname"
+CLOUDKIT_CONTAINER="iCloud.com.labobsidian.yourprojectname"
 
 # Linear Integration (optional)
 LINEAR_TEAM_ID="your-team-id"
 LINEAR_API_KEY="your-api-key"
 
 # GitHub Configuration
-GITHUB_USERNAME="your-username"
-GITHUB_REPOSITORY="your-username/yourprojectname"
+GITHUB_USERNAME="labobsidian"
+GITHUB_REPOSITORY="labobsidian/yourprojectname"
 ```
 
 ## Quality Standards
@@ -222,7 +222,7 @@ GITHUB_REPOSITORY="your-username/yourprojectname"
 - **AI Development**: `AI_DEVELOPER_ONBOARDING.md`
 - **Human Setup**: `DEVELOPER_SETUP.md`
 - **Architecture**: `Documentation/Architecture.md`
-- **Template Source**: [Obsidian Genesis Template](https://github.com/zackbissell/obsidian-genesis-template)
+- **Template Source**: [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
 
 ### Troubleshooting
 - **Build Issues**: Check Apple Developer Team ID in `.env`
@@ -230,8 +230,15 @@ GITHUB_REPOSITORY="your-username/yourprojectname"
 - **Agent Issues**: Each agent in `.bmad-core/agents/` is self-contained
 - **Linear Issues**: Verify API key configuration in `.env`
 
+## About Lab Obsidian
+
+Lab Obsidian is a creative platform spanning music, technology, and cultural experiences. We build tools and systems that embody brutalist design principles—every decision is deliberate, nothing accidental.
+
+**Contact**: zack@labobsidian.com  
+**Website**: https://www.labobsidian.com
+
 ---
 
 **YourProjectName represents modern Apple ecosystem development with AI-driven workflows, comprehensive automation, and enterprise-grade quality standards.**
 
-*Built with [Obsidian Genesis Template](https://github.com/zackbissell/obsidian-genesis-template) - The ultimate Apple app development template.*
+*Built with [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template) - The ultimate Apple app development template.*
