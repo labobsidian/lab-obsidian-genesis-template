@@ -1,0 +1,32 @@
+{
+  "name": "bmad-linear-integration",
+  "version": "1.0.0",
+  "description": "BMAD-Linear bidirectional sync system for project management automation",
+  "main": "bmad-linear-sync.js",
+  "scripts": {
+    "setup": "node bmad-linear-sync.js --setup",
+    "sync": "node bmad-linear-sync.js --sync",
+    "report": "node bmad-linear-sync.js --report",
+    "test": "node test-integration.js"
+  },
+  "keywords": [
+    "bmad",
+    "linear",
+    "project-management",
+    "automation",
+    "ai-agents"
+  ],
+  "author": "Obsidian Genesis Template",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.3.0",
+    "@linear/sdk": "^1.22.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

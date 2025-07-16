@@ -1,0 +1,24 @@
+bundle:
+  name: Team Enhanced
+  icon: 🌟
+  description: Complete team with all core agents plus infrastructure and creator capabilities for revolutionary cognitive computing development.
+agents:
+  - bmad-orchestrator
+  - analyst
+  - pm
+  - ux-expert
+  - architect
+  - po
+  - sm
+  - dev
+  - qa
+  - infra-devops-platform
+  - bmad-the-creator
+  - bmad-master
+workflows:
+  - brownfield-fullstack.yaml
+  - brownfield-service.yaml
+  - brownfield-ui.yaml
+  - greenfield-fullstack.yaml
+  - greenfield-service.yaml
+  - greenfield-ui.yaml

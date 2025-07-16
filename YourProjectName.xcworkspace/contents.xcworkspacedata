@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Projects/YourProjectName-iOS/YourProjectName-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Projects/YourProjectName-macOS/YourProjectName-macOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Projects/YourProjectName-iPadOS/YourProjectName-iPadOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Projects/YourProjectName-watchOS/YourProjectName-watchOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Projects/YourProjectName-tvOS/YourProjectName-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Projects/YourProjectName-visionOS/YourProjectName-visionOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Packages">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,100 @@
+# Xcode
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+.idea/
+*.moved-aside
+*.hmap
+*.ipa
+*.xcuserdatad/
+*.xcsettings
+*.xcassets/.DS_Store
+
+# SwiftPM
+.build/
+.swiftpm/xcode/
+/.swiftpm/
+Package.resolved
+
+# Xcode Build artifacts (including SourcePackages)
+build/
+**/build/
+SourcePackages/
+**/SourcePackages/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/DerivedData/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# User settings
+*.env
+.env.*
+*.swp
+*.swo
+
+# Node/NPM/Yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup
+*~.nib
+*~.storyboard
+*.bak
+*.tmp
+
+# XcodeGen (leave generated files, ignore the cache)
+/.xcodegen/
+.xcodegen_cache/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Misc
+*.orig
+
+# Custom template rules
+.netrc
+
+# Logs
+*.log
+
+# Build logs
+build-logs/
+**/build-logs/
+
+# Temporary files
+swift_file_index_*.txt
+*.backup
+
+# Development specific
+.ai/
+*.xcscmblueprint
+
+# Linear API keys and secrets
+LINEAR_API_KEY
+GITHUB_TOKEN
+
+# Template generation artifacts
+PROJECT_SETUP_COMPLETE.md
