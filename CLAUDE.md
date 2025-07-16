@@ -11,6 +11,10 @@ YourProjectName is a modern Apple ecosystem application built with Swift 6, Swif
 **Development Team**: YOUR_TEAM_ID  
 **Template**: [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
 
+### BMAD Method Foundation
+
+This project is built upon the revolutionary [BMAD Method](https://github.com/bmadcode/BMAD-METHOD) created by [Brian (BMad)](https://github.com/bmadcode). The BMAD framework provides the specialized AI agents and agentic development methodology that powers this template's intelligent workflows.
+
 ## Linear Development Operations
 
 **Team ID**: your-linear-team-id  

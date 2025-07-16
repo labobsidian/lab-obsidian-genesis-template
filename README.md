@@ -6,6 +6,22 @@ Every workflow, doc, and integration is designed to cut through noise and empowe
 
 **For more, visit: https://www.labobsidian.com**
 
+## Built on the BMAD Method
+
+This template is powered by the revolutionary **BMAD Method** (Breakthrough Method for Agile AI-Driven Development) created by [Brian (BMad)](https://github.com/bmadcode). 
+
+Brian's groundbreaking work in agentic AI development has transformed how we approach software engineering. His [BMAD Method framework](https://github.com/bmadcode/BMAD-METHOD) introduces specialized AI agents that eliminate planning inconsistency and context loss—a paradigm shift that makes complex project development both systematic and creative.
+
+**What makes Brian's work extraordinary:**
+- **Agentic Planning**: Dedicated AI agents (Analyst, PM, Architect) create hyper-detailed project specifications
+- **Context-Engineered Development**: Transforms abstract ideas into executable development stories
+- **Universal Application**: Works across software, creative writing, business strategy, and beyond
+- **Human-in-the-Loop Excellence**: Balances AI capabilities with human insight and creativity
+
+Lab Obsidian has adapted Brian's methodology specifically for Apple ecosystem development, adding our brutalist design philosophy and creative platform integration. We're honored to build upon such innovative foundational work.
+
+**Explore the original:** [BMAD Method Repository](https://github.com/bmadcode/BMAD-METHOD) | [Brian's Work](https://github.com/bmadcode) | [BMadCode on YouTube](https://www.youtube.com/@BMadCode)
+
 ## Features
 
 - **Complete Apple Ecosystem**: iOS, iPadOS, macOS, watchOS, tvOS, visionOS support
