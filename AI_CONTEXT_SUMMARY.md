@@ -175,6 +175,10 @@ Lab Obsidian is a creative platform spanning music, technology, and cultural exp
 **Contact**: zack@labobsidian.com  
 **Website**: https://www.labobsidian.com
 
+## Legal Compliance Reminder
+
+**IMPORTANT**: This template requires compliance with Apple trademarks, third-party licenses, and intellectual property rights. See README.md "Legal & Attribution" section and LICENSE file for complete requirements.
+
 ---
 
 **You're now ready for AI-assisted Apple ecosystem development!**

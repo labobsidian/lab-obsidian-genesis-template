@@ -289,6 +289,21 @@ Lab Obsidian is a creative platform spanning music, technology, and cultural exp
 **Contact**: zack@labobsidian.com  
 **Website**: https://www.labobsidian.com
 
+## Legal Compliance for AI Assistants
+
+### Important Requirements
+- **Apple Trademarks**: Always use proper attribution for iOS, macOS, visionOS, watchOS, tvOS (Apple trademarks)
+- **Third-Party Licenses**: Reference LICENSE file and README.md Legal section for all attribution requirements
+- **Generated Code**: Ensure all generated code respects intellectual property rights and licensing terms
+- **API Usage**: Follow rate limits and terms of service for Linear, GitHub, and integrated services
+- **Template License**: This template is MIT Licensed - include appropriate attributions in generated projects
+
+### Best Practices
+- Always reference the README.md "Legal & Attribution" section when working with third-party integrations
+- Include proper license files when generating new projects
+- Respect all trademark and intellectual property guidelines
+- Follow Apple Developer Program requirements for platform development
+
 ---
 
 **Welcome to AI-assisted Apple ecosystem development!**

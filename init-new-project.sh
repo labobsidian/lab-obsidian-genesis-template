@@ -372,6 +372,21 @@ Use \`.bmad-core/agent-teams/team-enhanced.yaml\` for comprehensive development 
 - **Testing**: Comprehensive unit and UI test coverage
 - **Documentation**: Complete API documentation
 
+## Legal & Compliance
+
+### Important Requirements
+This project requires compliance with multiple intellectual property and licensing requirements:
+
+- **Apple Trademarks**: iOS, macOS, visionOS, watchOS, tvOS are trademarks of Apple Inc.
+- **Template License**: Built with Lab Obsidian Genesis Template under MIT License
+- **Third-Party Licenses**: Respect all third-party tool and library licensing requirements
+- **Generated Code**: Ensure all code respects intellectual property rights
+
+### License Compliance
+Include appropriate LICENSE file and attributions in your project. Reference the template's README.md "Legal & Attribution" section for comprehensive compliance guidelines.
+
+**Template Source**: [Lab Obsidian Genesis Template](https://github.com/labobsidian/lab-obsidian-genesis-template)
+
 ---
 
 **${PROJECT_NAME} represents the future of Apple ecosystem development with AI-driven workflows, comprehensive automation, and enterprise-grade quality standards.**
@@ -538,6 +553,22 @@ Use this template to create:
 - **Template Issues**: https://github.com/labobsidian/lab-obsidian-genesis-template/issues
 - **Project Documentation**: Check \`Documentation/\` directory
 - **AI Agent Help**: Use \`*help\` command with any BMAD agent
+
+## Legal & Compliance Checklist
+
+### Essential Requirements
+- **License File**: Add appropriate LICENSE file to your project repository
+- **Apple Trademarks**: Use proper attribution for iOS, macOS, visionOS, watchOS, tvOS
+- **Third-Party Licenses**: Review and comply with all integrated tool licensing requirements
+- **Template Attribution**: Credit Lab Obsidian Genesis Template (MIT Licensed)
+
+### Next Steps for Legal Compliance
+1. **Create LICENSE file** for your project (consider MIT for compatibility)
+2. **Review Apple Developer Program License Agreement** requirements
+3. **Check third-party integrations** for additional licensing requirements
+4. **Include attributions** in your project documentation
+
+**Template Legal Info**: See [Lab Obsidian Genesis Template Legal & Attribution](https://github.com/labobsidian/lab-obsidian-genesis-template#legal--attribution)
 
 ---
 

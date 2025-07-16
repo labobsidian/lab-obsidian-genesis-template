@@ -317,6 +317,35 @@ Lab Obsidian is a creative platform spanning music, technology, and cultural exp
 **Contact**: zack@labobsidian.com  
 **Website**: https://www.labobsidian.com
 
+## Legal & Attribution
+
+Lab Obsidian ensures comprehensive legal compliance while building upon great open source work. This template respects all intellectual property rights and provides enterprise-grade legal protection.
+
+### Apple Platform Attribution
+
+iOS, iPadOS, macOS, watchOS, tvOS, and visionOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.
+
+This template enables development for Apple platforms but is not affiliated with, endorsed by, or sponsored by Apple Inc. Swift is open source under Apache 2.0 License with Runtime Library Exception. SwiftUI is proprietary technology of Apple Inc.
+
+### Third-Party Tools & Libraries
+
+**BMAD Method**: Built upon the revolutionary BMAD Method framework by [Brian (BMad)](https://github.com/bmadcode) under MIT License.  
+**Linear SDK**: Linear API integration uses Linear SDK under MIT License. Copyright (c) 2019 Linear.  
+**XcodeGen**: XcodeGen integration under MIT License by Yonas Kolb.  
+**GitHub**: Template repository functionality provided by GitHub.
+
+### Development Tools Disclaimer
+
+This template uses but does not include or distribute Apple development tools. Xcode, Apple Developer Account, and platform SDKs are required separately and subject to Apple's terms.
+
+### Warranty & Liability
+
+This template is provided "AS IS" under the MIT License, without warranty of any kind. Lab Obsidian handles the legal complexity so you can focus on creating. See the `LICENSE` file for complete terms.
+
+### Usage Guidelines
+
+This template is designed for Apple platform development and respects all third-party intellectual property rights. Users are responsible for compliance with the Apple Developer Program License Agreement and all applicable terms of service for integrated tools and platforms.
+
 ---
 
 **Welcome to the future of Apple app development.**
